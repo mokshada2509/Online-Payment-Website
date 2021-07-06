@@ -1,0 +1,48 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css/style1.css">
+</head>
+<body>
+
+<header>
+<div class="main">
+<div class="logo">
+<img src="logo2.png">
+</div>
+</div>
+<div class="title">
+<h1>TechPay</h1>
+</div>
+<div><h3>Simple and Secure...</h3></div>
+
+<h2>Select Payment Mode:</h2>
+<ul>
+<li>
+<h4>Credit Card/Debit card</h4>
+<a href="ccdc.html">
+<button>Proceed</button>
+</a>
+</li>
+<li>
+<h4>Net Banking</h4>
+<select onchange="la(this.value)">
+<option  disabled selected>Select</option>
+<option value="axis.html">Axis Bank</option>
+<option value="hdfc.html">HDFC Bank</option>
+<option value="icici.html">ICICI Bank</option>
+<option value="sbi.html">SBI Bank</option>
+<option value="kotak.html">Kotak Bank</option>
+</select>
+<script>
+function la(src)
+{
+window.location=src;
+}
+</script>
+</li>
+</ul>
+<h1>                                    
+</h1>
+</header>
+</body>
+</html>
